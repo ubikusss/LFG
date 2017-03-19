@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "cognitive-services": "^0.1.0"
+  }
+}
