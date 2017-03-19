@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "authLevel": "function"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "type": "table",
+      "name": "outputTable",
+      "partitionKey": "{datetime}",
+      "rowKey": "{rand-guid}",
+      "tableName": "outTable",
+      "connection": "AzureWebJobsDashboard",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
