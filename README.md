@@ -1,6 +1,6 @@
 # LFG
 **Azure Logic Apps, Functions and cognitive services
-Proof of concept for understanding Logic Apps, Functions and Cognitive services.**
+example for understanding Logic Apps, Functions and Cognitive services.**
 
 LogicApps - Template for deploying a logic app. It contains the following logic: 
 - Request comes to logic app with the body being a JSON according to a JSON schema
@@ -10,3 +10,5 @@ LogicApps - Template for deploying a logic app. It contains the following logic:
     - Function to check and respond with the text if the image contains text
     - If both detected both functions are ran
 - Results in the response being sent back
+
+**Make sure to enter the cognitive services keys**
