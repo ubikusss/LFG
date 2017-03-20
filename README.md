@@ -12,3 +12,22 @@ LogicApps - Template for deploying a logic app. It contains the following logic:
 - Results in the response being sent back
 
 **Make sure to enter the cognitive services keys**
+
+The flow should be the following: 
+1. You send a JSON body to the Logic app as the one below (using Postman for example): 
+{
+  "url": "https://www.w3.org/TR/SVGTiny12/examples/textArea01.png"
+}
+2. You can use a sample payload to generate the schema for validation and it should look like this: 
+{
+  "properties": {
+    "url": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}
+3. The body of the request will be sent to the checkImage function
+4. The function will reply with one of this three options as the body of the message: face, text or both
+5. Each branch of the switch statement will trigger another function or sequence of functions.
+6. At the end you will get the reply from the cognitive service(s) used. 
