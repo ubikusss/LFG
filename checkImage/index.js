@@ -14,7 +14,7 @@ module.exports = function (context, data) {
         request.post({
             url: 'https://westus.api.cognitive.microsoft.com/face/v1.0/detect',
             headers: {
-                "Ocp-Apim-Subscription-Key": "9a6a94b1f60b4a58a401a6b54f07fec3",
+                "Ocp-Apim-Subscription-Key": "XXXXXXXX",
                 "Content-Type": "application/json"
             },
             encoding: "utf8",
