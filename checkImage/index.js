@@ -35,7 +35,7 @@ module.exports = function (context, data) {
         request.post({
             url: 'https://westus.api.cognitive.microsoft.com/vision/v1.0/ocr?language=unk',
             headers: {
-                "Ocp-Apim-Subscription-Key": "7032c572c9c44c2281187ce791bc286c",
+                "Ocp-Apim-Subscription-Key": "XXXXXXX",
                 "Content-Type": "application/json"
             },
             encoding: "utf8",
