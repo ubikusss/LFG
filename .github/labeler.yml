@@ -2,3 +2,5 @@ Logic:
 - LogicApp/**/*
 OCRFunc:
 - OCRFunction/**/*
+Other:
+- any: ['/**/*', './*', '!LogicApp/*', '!ORCFunction/*']
